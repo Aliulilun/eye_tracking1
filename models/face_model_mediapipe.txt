@@ -1,0 +1,35 @@
+# 3D 人臉模型 - MediaPipe 官方 Canonical Face Model
+# 來源: https://github.com/google/mediapipe/tree/master/mediapipe/modules/face_geometry/data
+# Face Model 3D Coordinates for MediaPipe landmarks
+# 格式: X Y Z (單位: cm，已從官方模型縮放)
+# 座標系統: X 向右，Y 向上，Z 向前（遠離臉部）
+#
+# 注意: MediaPipe canonical model 的座標系:
+#   - Y 軸向上為正
+#   - Z 軸向前（遠離臉部）為正
+#
+
+# Left eye outer corner - MediaPipe index: 33
+-4.445859 2.663991 3.173422
+
+# Left eye inner corner - MediaPipe index: 133
+-1.856432 2.585245 3.757904
+
+# Right eye inner corner - MediaPipe index: 362
+1.856432 2.585245 3.757904
+
+# Right eye outer corner - MediaPipe index: 263
+4.445859 2.663991 3.173422
+
+# Nose tip - MediaPipe index: 1
+0.000000 -1.126865 7.475604
+
+# Nose bottom - MediaPipe index: 2
+0.000000 -2.089024 6.058267
+
+# Left mouth corner - MediaPipe index: 61
+-2.456206 -4.342621 4.283884
+
+# Right mouth corner - MediaPipe index: 291
+2.456206 -4.342621 4.283884
+
